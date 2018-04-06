@@ -9,7 +9,7 @@ class ChuckJokes
   end
 
   def get_joke_by_id(id)
-    ChuckNorris::JokeFinder.get_joke(id).joke
+    ChuckNorris::JokeFinder.find_joke(id.to_i).joke
   end
 
   def replace_name(first_name, last_name)
@@ -21,3 +21,4 @@ class ChuckJokes
   end
 
 end
+
