@@ -21,4 +21,3 @@ class ChuckJokes
   end
 
 end
-
