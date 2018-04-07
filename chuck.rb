@@ -13,7 +13,7 @@ class ChuckJokes
   end
 
   def replace_name(first_name, last_name)
-    ChuckNorris::JokeFinder.get_joke(first_name: 'David', last_name: 'Patlut').joke
+    ChuckNorris::JokeFinder.get_joke(first_name: first_name.capitalize, last_name: last_name.capitalize).joke
   end
 
   def random
