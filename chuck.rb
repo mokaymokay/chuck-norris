@@ -3,9 +3,9 @@ require 'chuck_norris'
 class ChuckJokes
 
   def help
-    puts 'Enter "ruby chuck.rb random" for a random joke'
-    puts 'Enter "ruby chuck.rb {id}" for a joke with a specific ID'
-    puts 'Enter "ruby chuck.rb {first_name} {last_name}" for a joke with a customized name'
+    puts 'Enter "ruby app.rb random" for a random joke'
+    puts 'Enter "ruby app.rb {id}" for a joke with a specific ID'
+    puts 'Enter "ruby app.rb {first_name} {last_name}" for a joke with a customized name'
   end
 
   def get_joke_by_id(id)
